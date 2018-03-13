@@ -1,0 +1,12 @@
+{
+  "name": "troemer/petsII",
+  "authors": [
+    {
+      "name": "Tyler Roemer",
+      "email": "troemer@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
