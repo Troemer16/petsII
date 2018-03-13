@@ -19,6 +19,11 @@
         echo "<a href='./order'>Order a Pet</a>";
     });
 
+    $f3->route('GET /order', function() {
+        $template = new Template();
+        echo $template->render('views/form1.html');
+    });
+
     //Run Fat-Free
     $f3->run();
 ?>
